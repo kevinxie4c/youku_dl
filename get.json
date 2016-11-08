@@ -1,0 +1,100 @@
+{
+	"e" : {
+		"desc" : "",
+		"provider" : "play",
+		"code" : 0
+	},
+	"data" : {
+		"id" : 50848759,
+		"stream" : [{
+				"logo" : "youku",
+				"media_type" : "standard",
+				"audio_lang" : "default",
+				"subtitle_lang" : "default",
+				"transfer_mode_org" : "http",
+				"segs" : [{
+						"total_milliseconds_audio" : "420745",
+						"fileid" : "03000202004C805C402CA90468F8C8B7F9FBFF-DBB4-FB78-A643-80372DE627EF",
+						"total_milliseconds_video" : "420733",
+						"key" : "cc52c40bcae36efc2412c30d",
+						"size" : "11863669"
+					}, {
+						"total_milliseconds_audio" : "177447",
+						"fileid" : "03000202014C805C402CA90468F8C8B7F9FBFF-DBB4-FB78-A643-80372DE627EF",
+						"total_milliseconds_video" : "177200",
+						"key" : "4e2ca442db537db0261f4516",
+						"size" : "4975615"
+					}
+				],
+				"stream_type" : "flvhd",
+				"width" : 304,
+				"transfer_mode" : "http",
+				"size" : 16839284,
+				"height" : 256,
+				"milliseconds_video" : 597933,
+				"drm_type" : "default",
+				"milliseconds_audio" : 598192,
+				"stream_fileid" : "03000202004C805C402CA90468F8C8B7F9FBFF-DBB4-FB78-A643-80372DE627EF"
+			}
+		],
+		"uploader" : {
+			"certification" : false,
+			"fan_count" : 634,
+			"reason" : "",
+			"show_brand" : 0,
+			"avatar" : {
+				"big" : "http://g2.ykimg.com/0130391F484E354C85B0060468F8C81AF9CB04-3B0E-C657-4686-0348C50E9AFC",
+				"small" : "http://g2.ykimg.com/0130391F484E354C85B4A30468F8C8084524C8-F7A8-1A21-9137-284ACCB33DB4",
+				"middle" : "http://g2.ykimg.com/0130391F484E354C85B4A30468F8C8084524C8-F7A8-1A21-9137-284ACCB33DB4",
+				"large" : "http://g2.ykimg.com/0130391F484E354C85B0060468F8C81AF9CB04-3B0E-C657-4686-0348C50E9AFC"
+			},
+			"homepage" : "http://i.youku.com/u/UMjk1OTUzMTg0"
+		},
+		"controller" : {
+			"html5_disable" : false,
+			"continuous" : false,
+			"video_capture" : true,
+			"like_disabled" : false,
+			"stream_mode" : 1,
+			"app_disable" : false,
+			"download_disable" : false,
+			"share_disable" : false,
+			"circle" : false,
+			"play_mode" : 1
+		},
+		"security" : {
+			"encrypt_string" : "PwXXSwkXIbPT0PjF/OJxAYimvBA61wvIUR0=",
+			"ip" : 3735562265
+		},
+		"user" : {
+			"uid" : ""
+		},
+		"network" : {
+			"dma_code" : "4134",
+			"area_code" : "220100"
+		},
+		"video" : {
+			"tags" : ["口琴", "流浪者之歌", "半音阶口琴"],
+			"logo" : "http://r1.ykimg.com/05410408526671376A0A4D3E1A915AC0",
+			"published_time" : "2010-09-03 10:25:15",
+			"userid" : 73988296,
+			"privacy" : "anybody",
+			"category_id" : 95,
+			"type" : ["video"],
+			"upload" : "iku",
+			"restrict" : 0,
+			"title" : "半音阶口琴演奏《流浪者之歌》完整版",
+			"username" : "franchbach",
+			"source" : 2,
+			"seconds" : "598.20",
+			"encodeid" : "XMjAzMzk1MDM2",
+			"category_letter_id" : "f",
+			"subcategories" : [{
+					"id" : "2132",
+					"name" : "轻音乐"
+				}
+			]
+		}
+	},
+	"cost" : 0.009000000543892384
+}
