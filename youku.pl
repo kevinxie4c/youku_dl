@@ -104,8 +104,12 @@ for my $stream (@{$json->{data}{stream}}) {
 	for my $seg (@{$stream->{segs}}) {
 		my ($fileid, $key) = @{$seg}{ qw/fileid key/ };
 		$ep = get_ep($sid, $fileid, $token);
+		print "Got URI:" . "http://k.youku.com/player/getFlvPath/sid/$sid" . "_00/st/$ext{$format}/fileid/$fileid?K=$key&hd=$hd{$format}&myp=0&ypp=0&ctype=12&ev=1&token=$token&oip=$oip&ep=" . uri_escape($ep) . "\n";
+		print "Downloading...\n";
 		$res = $ua->get("http://k.youku.com/player/getFlvPath/sid/$sid" . "_00/st/$ext{$format}/fileid/$fileid?K=$key&hd=$hd{$format}&myp=0&ypp=0&ctype=12&ev=1&token=$token&oip=$oip&ep=" . uri_escape($ep));
-		open FOUT, '>', "$filename-$n". ".$ext{$format}";
+		print "Finished\n";
+		print "Save file as $filename-$n.$ext{$format}\n";
+		open FOUT, '>', "$filename-$n.$ext{$format}";
 		binmode FOUT;
 		print FOUT $res->content;
 		close FOUT;
